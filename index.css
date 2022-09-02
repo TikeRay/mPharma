@@ -17,41 +17,34 @@ body {
     overflow: hidden;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
-    /* background-color: goldenrod; */
     height: 100px;
     justify-content: space-between;
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
+
 .logo {
     color: orangered;
-    /* background-color: blue; */
     width: 20%;
     font-family: 'Times New Roman', Times, serif;
-    /* margin-left: 110px; */
-    /* padding-top: 30px; */
 }
 
 nav ul {
     text-align: center;
     list-style: none;
     display: flex;
-    /* margin-left: 510px; */
     font-family: Arial;
-/* background-color: yellowgreen; */
-width: 68%;
-justify-content: space-around;
+    width: 68%;
+    justify-content: space-around;
 }
 
 nav ul li {
-    /* width: 100px; */
     margin: 12px;
     padding: 1px;
     font-weight: bold;
-    /* position: relative; */
 }
 
 nav ul li a {
@@ -60,19 +53,13 @@ nav ul li a {
 }
 
 .getintouchbtn {
-    /* margin-left: 1170px; */
-    /* padding-bottom: 40px; */
     text-decoration: none;
     color: white;
     border-radius: 20px;
     background-color: orangered;
     padding: 12px 17px;
-    /* position: absolute; */
-    /* margin-top: -40px; */
-    /* font-family: arial;
-    font-weight: bold; */
+    font-weight: bold;
     font-size: 14px;
-    /* text-align: center; */
 }
 
 .content {
@@ -82,7 +69,7 @@ nav ul li a {
 
 h1 {
     font-size: 70px;
-    font-family: 'arial';
+    font-family: 'Times New Roman';
     font-weight: 700;
     justify-content: space-between;
 }
@@ -93,12 +80,10 @@ h1 {
 }
 
 .bio {
-    /* margin-left: auto; */
     margin-top: 265px;
     margin-bottom: 40px;
     font-size: 20px;
     text-align: end;
-    /* width: 90px; */
     font-family: 'Times New Roman', Times, serif;
     padding-right: 40px;
 }
@@ -120,7 +105,7 @@ h1 {
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     width: 55%;
-    line-height:30px ;
+    line-height: 30px;
     margin: 0 auto;
     font-weight: 600;
 }
@@ -137,7 +122,7 @@ h1 {
     font-size: 14px;
 }
 
-.image-container{
+.image-container {
     width: 60%;
 }
 
@@ -147,17 +132,29 @@ h1 {
 }
 
 .section3 {
-    background-color: orange
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+    flex-direction: row-reverse;
 }
 
 .sub-section3 {
     text-align: center;
-    padding-left: 650px;
-    padding-top: 200px;
+    width: 40%;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .content3 {
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 .learnmore3 {
@@ -172,25 +169,29 @@ h1 {
 }
 
 .img3 {
-    width: 700px;
-    margin-left: 80px;
-    margin-top: -280px;
-    margin-bottom: 50px;
-
+    width: 100%;
+    height: 100%;
 }
 
 .section4 {
-    background-color: aliceblue
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
 }
 
 .sub-section4 {
     text-align: center;
-    padding-right: 750px;
-    padding-top: 200px;
+    width: 40%;
 }
 
 .content4 {
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 .learnmore4 {
@@ -205,25 +206,30 @@ h1 {
 }
 
 .img4 {
-    width: 700px;
-    margin-left: 550px;
-    margin-top: -280px;
-    margin-bottom: 50px;
-
+    width: 100%;
+    height: 100%;
 }
 
 .section5 {
-    background-color: orange
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+    flex-direction: row-reverse;
 }
 
 .sub-section5 {
     text-align: center;
-    padding-left: 650px;
-    padding-top: 200px;
+    width: 40%;
 }
 
 .content5 {
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 .learnmore5 {
@@ -238,11 +244,8 @@ h1 {
 }
 
 .img5 {
-    width: 700px;
-    margin-left: 80px;
-    margin-top: -280px;
-    margin-bottom: 50px;
-
+    width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -263,7 +266,7 @@ h1 {
 .content6 p {
     font-size: 18px;
     width: 65%;
-    margin: 28px auto ;
+    margin: 28px auto;
     line-height: 24px;
 }
 
@@ -325,14 +328,14 @@ h1 {
 
 .content8 h5 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 28px;
 }
 
 .content8 h6 {
     font-size: 14px;
     margin-top: 16px;
-    justify-content: space-between;
+    line-height: 24px;
 }
 
 .container2 {
@@ -467,6 +470,8 @@ h1 {
     color: #fff;
     margin: 30px;
     font-size: 14px;
+    line-height: 24px;
+
 }
 
 .vision1 {
@@ -516,7 +521,7 @@ ul li a {
         justify-content: center;
     }
 
-    .content2{
+    .content2 {
         font-size: 16px;
         margin-left: 30px;
         width: 100px;
@@ -536,4 +541,4 @@ ul li a {
         line-height: 15px;
 
     }
-    }
+}
